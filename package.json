@@ -1,0 +1,28 @@
+{
+  "name": "node-papertrail",
+  "version": "0.0.1",
+  "description": "Node wrapper for Papertrail's API",
+  "main": "server.js",
+  "author": "Tim Officer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/officert/node-papertrail"
+  },
+  "engines": {
+    "node": "0.10.38"
+  },
+  "dependencies": {
+    "moment": "2.8.x",
+    "underscore": "1.7.0",
+    "yargs": "2.1.1",
+    "shelljs": "0.3.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5",
+    "should": "3.1.4",
+    "sinon": "1.9.0",
+    "supertest": "0.15.0"
+  },
+  "scripts": {}
+}
