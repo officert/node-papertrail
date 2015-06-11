@@ -1,6 +1,11 @@
 default:
 	npm install
 
+#create symlink so we can run tests using the module
+post-install:
+	cd ./node_modules; \
+	ln -snf ../../node-papertrail; \
+
 jshint:
 	./node_modules/.bin/jshint \
 	"lib"

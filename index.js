@@ -1,1 +1,1 @@
-module.exports = require('./lib/node-papertrail');
+module.exports = require('./lib/papertrail');
