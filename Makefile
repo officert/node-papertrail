@@ -5,7 +5,7 @@ jshint:
 	./node_modules/.bin/jshint \
 	"lib"
 
-test:
+tests:
 	./node_modules/.bin/_mocha \
-	"tests/integration/**/*-test*" \
+	"test/**/*-test*" \
 	-t 20000 -R spec
